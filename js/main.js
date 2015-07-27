@@ -39,7 +39,7 @@ function event(e){
 	// alert(posX);
 
 	$(".ksc").css({backgroundPosition: posX+"px "+posY+"px"});
-	speedX=accX*interval;
-	speedY=accY*interval;
+	speedX=speedX+accX*interval;
+	speedY=speedY+accY*interval;
 }
 window.addEventListener("devicemotion",event,false);
