@@ -24,7 +24,7 @@ function event(e){
 	var acc=e.accelerationIncludingGravity,
 	    accX=acc.x,
 	    accY=acc.y,
-	    interval=e.interval/100;
+	    interval=e.interval/1000;
 
 	    // alert(interval);
 
