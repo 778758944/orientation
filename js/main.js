@@ -25,6 +25,13 @@ function event(e){
 	    accX=acc.x,
 	    accY=acc.y,
 	    interval=e.interval/1000;
+	    if(Math.abs(accX)<2){
+	    	accX=0;
+	    }
+
+	    if(Math.abs(accY<2)){
+	    	accY=0;
+	    }
 
 	    // alert(interval);
 
