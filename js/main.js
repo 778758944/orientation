@@ -40,7 +40,7 @@ function event(e){
     // alert(lengthX);
 
 
-	posX=posX+lengthX;
+	posX=posY+lengthY;
 	posY=posY+lengthY;
 
 	// alert(posX);
