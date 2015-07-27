@@ -24,7 +24,7 @@ function event(e){
 	var acc=e.accelerationIncludingGravity,
 	    accX=acc.x,
 	    accY=acc.y,
-	    interval=e.interval/1000;
+	    interval=e.interval/100;
 	    if(Math.abs(accX)<2){
 	    	accX=0;
 	    }
@@ -40,8 +40,8 @@ function event(e){
     // alert(lengthX);
 
 
-	posX=posY+lengthY;
-	posY=posY+lengthY;
+	posX=posX+lengthX;
+	posY=posY+lengthX;
 
 	// alert(posX);
 
